@@ -8,7 +8,7 @@ class Brillo {
         this.tVida = int(random(50,100));
         this.tVidaInicial= this.tVida;
         this.estaMuerta = false;
-        this.diam = random(50, 100);
+        this.diam = random(100, 200);
 
     }
 
