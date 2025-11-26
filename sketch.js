@@ -7,18 +7,18 @@ function setup() {
 }
 
 function draw() {
-    background(2, 10, 25, 60);
+    background(2, 10, 25, 70);
 
    for (let i = 0; i < sp.length - 1; i++) {
     noFill();
-    stroke(255, 255, 255, 200);
+    stroke(255, 255, 255, 220);
     strokeWeight(2);   
     line(sp[i].pos.x, sp[i].pos.y, sp[i + 1].pos.x, sp[i + 1].pos.y);
 }
 
 for (let i = 0; i < sp.length - 1; i++) {
     noFill();
-    stroke(0, 100, 100, 50);
+    stroke(0, 100, 100, 60);
     strokeWeight(15);   
     line(sp[i].pos.x, sp[i].pos.y, sp[i + 1].pos.x, sp[i + 1].pos.y);
 }

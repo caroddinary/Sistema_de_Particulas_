@@ -25,7 +25,7 @@ class Brillo {
     }
 
     display() {
-        fill(120, 255, 255, 20);
+        fill(120, 255, 255, 30);
         noStroke();    
         this.diamFinal =map(this.tVida, this.tVidaInicial, 0, this.diam, 0);
         circle(this.pos.x, this.pos.y, this.diamFinal);
